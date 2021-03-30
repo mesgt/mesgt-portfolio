@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* html {
+	background-color: rgb(243, 237, 204);
+	background-image: linear-gradient(to bottom right, rgb(0, 255, 170), rgb(0, 26, 255));
+} */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -31,10 +36,16 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: rgb(243, 237, 204);
+	background-image: linear-gradient(to bottom right, rgb(242, 243, 183), rgb(108, 212, 197));
 }
 
 ol, ul {
 	list-style: none;
+}
+
+article.post {
+	
 }
 
 blockquote, q {
@@ -98,9 +109,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
+	/* body {
 		background: #f4f4f4;
-	}
+	} */
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
