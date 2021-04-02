@@ -108,10 +108,11 @@ div.preview {
 	margin-bottom: 20px;
 }
 
-#gitHubLink {
+#gitHubLink #myStory {
 	font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
+		color: red;
 		/* letter-spacing: 0.25em; */
 		/* line-height: 2.5; */
 }
@@ -2895,7 +2896,7 @@ div.preview {
 			.post > footer .stats {
 				cursor: default;
 				list-style: none;
-				padding: 0;
+				padding: 10px;
 			}
 
 				.post > footer .stats li {
