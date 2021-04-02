@@ -89,10 +89,10 @@ display: none;
 
 a:hover>img {
 	display: block;
-	max-width: 100% !important;
-    max-height: 100% !important;
-    width: auto !important;
-    height: auto !important;
+	max-width: 100% ;
+    max-height: 100% ;
+    width: auto ;
+    height: auto ;
     margin-bottom: 0;
 }
 
@@ -3384,11 +3384,10 @@ div.preview {
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
-		margin: 0 auto;
+		margin: 0;
 		max-width: 100%;
 		opacity: 1;
 		padding: 4.5em;
-		width: 90em;
 	}
 
 		body.is-menu-visible #wrapper {
