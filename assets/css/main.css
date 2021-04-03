@@ -108,21 +108,32 @@ div.preview {
 	margin-bottom: 20px;
 }
 
+.summarySpacing {
+	margin-top: 2em;
+}
+
 #gitHubLink #myStory {
 	font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
-		color: red;
+		/* color: red; */
 		/* letter-spacing: 0.25em; */
 		/* line-height: 2.5; */
 }
 
+/* #imgTransition {
+transition-duration: 2s;
+-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+} */
 
 /* external css: flickity.css */
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
+/* body { font-family: sans-serif; } */
 
 .carousel {
   background: inherit;
@@ -186,6 +197,7 @@ body { font-family: sans-serif; }
 }
 
 .flickity-page-dots {
+	margin-top: 2em;
 	position: relative;
 }
 .flickity-prev-next-button:hover {
