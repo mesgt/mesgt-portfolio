@@ -120,6 +120,14 @@ div.preview {
 		/* letter-spacing: 0.25em; */
 		/* line-height: 2.5; */
 }
+#likeComment {
+	padding: 1em;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
 
 /* #popup {
 	transition: 5s;
@@ -3043,7 +3051,7 @@ div.preview {
 
 				.post > footer .stats li {
 					border-left: solid 1px rgba(73, 72, 72, 0.3);
-					display: inline-block;
+					display: block;
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
