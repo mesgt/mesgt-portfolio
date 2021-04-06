@@ -270,16 +270,17 @@ transition-duration: 2s;
 		line-height: 1.75;
 	}
 
-		@media screen and (max-width: 1680px) {
+	nav.main {
+		display: none;
+	}
 
+		@media screen and (max-width: 1680px) {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
-
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
@@ -291,10 +292,13 @@ transition-duration: 2s;
 		}
 
 		@media screen and (max-width: 980px) {
-
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			nav.main {
+				display: block;
+			}
+
 			/* #previewImg {
 				width: 100%;
 			} */
@@ -313,6 +317,9 @@ transition-duration: 2s;
 			#previewImg {
 				width: 100%;
 			}
+			nav.main {
+				display: block;
+			}
 
 		}
 
@@ -320,6 +327,9 @@ transition-duration: 2s;
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+			nav.main {
+				display: block;
 			}
 
 		}
@@ -3692,6 +3702,7 @@ transition-duration: 2s;
 		right: 0;
 		top: 0;
 		visibility: hidden;
+		/* display: none; */
 		width: 25em;
 		z-index: 10002;
 	}
@@ -3767,5 +3778,11 @@ transition-duration: 2s;
 			#menu > * {
 				padding: 1.5em;
 			}
+		}
 
+
+		@media screen and (max-width: 736px) {
+			nav.main {
+				display: none;
+			}
 		}
