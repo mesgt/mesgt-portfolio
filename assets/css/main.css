@@ -188,24 +188,30 @@ div.preview {
 /* body { font-family: sans-serif; } */
 
 .carousel {
-  background: inherit;
+	background: inherit;
+	position: relative;
+	height: 100%;
 }
 
 .carousel-cell {
-  width: 60%;
-  height: 200px;
+	width: 60%;
+	height: 200px;
+	padding-top: 1em;
   /* flex-box, center image in cell */
-  display: -webkit-box;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-align-items: center;
-          align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+		justify-content: center;
+	-webkit-align-items: center;
+		align-items: center;
 }
 
 .carousel-cell img {
+	position: absolute;
+	/* top: 50%; */
+    /* transform: translateY(-50%); */
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -340,6 +346,9 @@ div.preview {
 				margin-left: 0;
 				margin-right: 0;
 				width: 100%;
+			}
+			p {
+				color:rgb(63, 59, 59)
 			}
 		}
 
