@@ -180,6 +180,9 @@ span#performRef.row {
 	padding-bottom: 1em;
 }
 
+#seeMore {
+	background-color: rgb(243, 243, 243);
+}
 
 /* #popup {
 	transition: 5s;
@@ -3792,6 +3795,10 @@ span#performRef.row {
 
 /* Footer */
 
+	section#footer {
+		text-align: center;
+	}
+	
 	#footer .icons {
 		color: #5e5e5e;
 	}
