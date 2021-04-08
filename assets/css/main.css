@@ -453,6 +453,9 @@ span#performRef.row {
 			nav.main {
 				display: block;
 			}
+			#contactMeBtn {
+				font-size: .6em;
+			}
 		}
 
 	a {
