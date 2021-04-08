@@ -116,11 +116,21 @@ div.preview {
 
 }
 
-#performRef {
+#performRef #myStory {
 	position: absolute;
   	bottom: 8px;
   	right: 16px;
-	color:rgb(136, 136, 136)
+	color:rgb(136, 136, 136);
+
+	display: block;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.6em;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	line-height: 1;
+	margin: 0 0 0 2em;
+	padding: 0 0 0 2em;
+	text-transform: uppercase;
 }
 
 .summarySpacing {
@@ -131,6 +141,7 @@ div.preview {
 	font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
+		/* text-transform: uppercase; */
 		/* color: red; */
 		/* letter-spacing: 0.25em; */
 		/* line-height: 2.5; */
@@ -3083,7 +3094,7 @@ div.preview {
 				padding: 10px;
 			}
 
-				.post > footer .stats li {
+				.stats {
 					border-left: solid 1px rgba(73, 72, 72, 0.3);
 					display: block;
 					font-family: "Raleway", Helvetica, sans-serif;
