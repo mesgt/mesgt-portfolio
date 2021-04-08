@@ -113,6 +113,7 @@ div.preview {
 
 #performImg {
 	position: relative;
+
 }
 
 #performRef {
@@ -974,7 +975,7 @@ div.preview {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					/* margin-left: -1em; */
 				}
 
 					.row > * {
@@ -1219,7 +1220,7 @@ div.preview {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					/* margin-left: -1em; */
 				}
 
 					.row > * {
@@ -1464,7 +1465,7 @@ div.preview {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					/* margin-left: -1em; */
 				}
 
 					.row > * {
@@ -1709,7 +1710,7 @@ div.preview {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					/* margin-left: -1em; */
 				}
 
 					.row > * {
@@ -1954,7 +1955,7 @@ div.preview {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1em;
+					/* margin-left: -1em; */
 				}
 
 					.row > * {
@@ -2648,7 +2649,7 @@ div.preview {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		/* margin-left: -1em; */
 		padding-left: 0;
 	}
 
