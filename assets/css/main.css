@@ -397,13 +397,18 @@ span#performRef.row {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			section #myStory.intro {
+				padding: 3em 3em 1em 3em;
+				background-color: rgb(245, 236, 236, .7);
+			}
 			/* .center {
 				margin-left: 0;
 				margin-right: 0;
 				width: 100%;
 			} */
 			p {
-				color:rgb(63, 59, 59)
+				color:rgb(63, 59, 59);
+				font-size: .75em;
 			}
 		}
 
@@ -2058,7 +2063,7 @@ span#performRef.row {
 
 /* Author */
 
-	.author {
+	/* .author {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2082,9 +2087,9 @@ span#performRef.row {
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
 		white-space: nowrap;
-	}
+	} */
 
-		.author .name {
+		/* .author .name {
 			-moz-transition: border-bottom-color 0.2s ease;
 			-webkit-transition: border-bottom-color 0.2s ease;
 			-ms-transition: border-bottom-color 0.2s ease;
@@ -2092,7 +2097,7 @@ span#performRef.row {
 			border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 			display: block;
 			margin: 0 1.5em 0 0;
-		}
+		} */
 
 		/* .author img {
 			border-radius: 100%;
@@ -2100,13 +2105,13 @@ span#performRef.row {
 			width: 4em;
 		} */
 
-		.author:hover .name {
+		/* .author:hover .name {
 			border-bottom-color: transparent;
-		}
+		} */
 
 /* Blurb */
 
-	.blurb h2 {
+	/* .blurb h2 {
 		font-size: 0.8em;
 		margin: 0 0 1.5em 0;
 	}
@@ -2117,7 +2122,7 @@ span#performRef.row {
 
 	.blurb p {
 		font-size: 0.9em;
-	}
+	} */
 
 /* Box */
 
@@ -3316,9 +3321,9 @@ span#performRef.row {
 		text-align: center;
 	}
 
-	header p {
+	header, p, .gitHubLink, #myStory {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
+		font-size: 0.8em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
