@@ -338,6 +338,11 @@ div.preview {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			.center {
+				margin-left: 0;
+				margin-right: 0;
+				width: 100%;
+			}
 			/* #commitsImg #codeImg #languageImg {
 				width: 80%;
 			} */
@@ -347,11 +352,11 @@ div.preview {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-			.center {
+			/* .center {
 				margin-left: 0;
 				margin-right: 0;
 				width: 100%;
-			}
+			} */
 			p {
 				color:rgb(63, 59, 59)
 			}
