@@ -332,10 +332,14 @@ div.preview {
 		display: block;
 	} */
 
+
 		@media screen and (max-width: 1680px) {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			/* #commitsImg #codeImg #languageImg {
+				width: 80%;
+			} */
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -727,7 +731,7 @@ div.preview {
 
 		.row {
 			margin-top: 0;
-			margin-left: -1em;
+			/* margin-left: -1em; */
 		}
 
 			.row > * {

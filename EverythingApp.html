@@ -3,9 +3,10 @@
 
 <head>
 	<title>Everything App</title>
-	<link rel="shortcut icon" type="image/png" href="./assets/images/favicon1.png" />	<meta charset="utf-8" />
+	<link rel="shortcut icon" type="image/png" href="./assets/images/favicon1.png" />
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -19,8 +20,9 @@
 			<h1><a href="index.html">Back to Maria's Profile</a></h1>
 			<nav class="links">
 				<ul>
-					<li class="fab fa-github"><a href="https://github.com/yermasog/everything">  View in Github</a></li>
-					<li class="fas fa-external-link-alt"><a href="https://everything123.herokuapp.com/">  Visit Site</a></li>
+					<li class="fab fa-github"><a href="https://github.com/yermasog/everything"> View in Github</a></li>
+					<li class="fas fa-external-link-alt"><a target="_blank" href="https://everything123.herokuapp.com/"> Visit Site</a>
+					</li>
 				</ul>
 			</nav>
 			<nav class="main">
@@ -34,13 +36,6 @@
 
 		<!-- Menu -->
 		<section id="menu">
-
-			<!-- Search -->
-			<!-- <section>
-				<form class="search" method="get" action="#">
-					<input type="text" name="query" placeholder="Search" />
-				</form>
-			</section> -->
 
 			<!-- Links -->
 			<section>
@@ -60,7 +55,7 @@
 				</ul>
 			</section>
 
-			
+
 
 		</section>
 
@@ -71,58 +66,71 @@
 			<article class="post">
 				<header>
 					<div id="previewHeader" class="title">
-						<h2><a href="#">Everything App</a></h2>
+						<h2>Everything App</h2>
 					</div>
 				</header>
-                <div class="preview box">
-                    <img class="center" width="60%" src="./assets/images/Everything/Everything.gif"/>
-                </div>
-                <div id="performImg" class="center box">
-                    <img width="30%" src="./assets/images/Everything/commits.png"/> 
-                    &nbsp;&nbsp;&nbsp;
-                    <img width="30%" src="./assets/images/Everything/code.png"/>
-					&nbsp;&nbsp;&nbsp;
-                    <img width="30%" src="./assets/images/Everything/languages.png"/>
-					<span id="performRef">Reference: <a target="_blank" href="https://www.canva.com/">Canva</a></span>
-				</div>
-                <div class="container">
-                    <h3>Technologies Used:</h3> 
-                    <ul>
-                        <li>React</li>
-                        <li>React-Google-Login</li>
-                        <li>React-Modal</li>
-                        <li>React-Datepicker</li>
-                        <li>React-Big-Calendar</li>
-                        <li>React-Icons</li>
-                        <li>React-Styled-Components</li>
-                        <li>Axios</li>
-                        <li>Foundation CSS Framework</li>
-                    </ul>
-                </div>
-                <div class="container">
-                    <h3>Future Additions:</h3> 
-                    <ul>
-                        <li>Google Calendar API integration</li>
-                        <li>More flavorful themes</li>
-                        <li>To do task integration with calendar</li>
-                        <li>Option to mark tasks as complete</li>
-                    </ul>
-                </div>
-				<div class="container">
-                    <h3>Performance Audit:</h3> 
-					<div id="performImg" class="center box">
-						<img  width="40%" src="./assets/images/Everything/performance1.PNG"/> 
-						<span id="performRef">Reference:  <a target="_blank" href="https://developers.google.com/web/tools/lighthouse/">Lighthouse </a>analysis</span>
+				<section>
+					<div class="preview box">
+						<img class="center" width="60%" src="./assets/images/Everything/Everything.gif" />
 					</div>
-                </div>
+				</section>
+				<section>
+					<div id="performImg" class=" box row">
+						<!-- <div > -->
+							<img id="commitsImg" class="col center" src="./assets/images/Everything/commits.png" alt="Number of Commits" />
+						<!-- </div> -->
+						&nbsp;&nbsp;&nbsp;
+						<!-- <div> -->
+							<img id="codeImg" class="col center" src="./assets/images/Everything/code.png" alt="Number of Additions and Deletions" />
+						<!-- </div> -->
+						&nbsp;&nbsp;&nbsp;
+						<!-- <div> -->
+							<img id="languageImg" class="col center" src="./assets/images/Everything/languages.png" alt="Languages used"/>
+						<!-- </div> -->
+						<span id="performRef">Reference: <a target="_blank" href="https://www.canva.com/">Canva</a></span>
+					</div>
+
+				</section>
+				<div class="container">
+					<h3>Technologies Used:</h3>
+					<ul>
+						<li>React</li>
+						<li>React-Google-Login</li>
+						<li>React-Modal</li>
+						<li>React-Datepicker</li>
+						<li>React-Big-Calendar</li>
+						<li>React-Icons</li>
+						<li>React-Styled-Components</li>
+						<li>Axios</li>
+						<li>Foundation CSS Framework</li>
+					</ul>
+				</div>
+				<div class="container">
+					<h3>Work in Progress:</h3>
+					<ul>
+						<li>Google Calendar API integration</li>
+						<li>More flavorful themes</li>
+						<li>To do task integration with calendar</li>
+						<li>Option to mark tasks as complete</li>
+					</ul>
+				</div>
+				<div class="container">
+					<h3>Performance Audit:</h3>
+					<div id="performImg" class="center box row">
+						<img width="auto" class="col" src="./assets/images/Everything/performance1.PNG" />
+						<span id="performRef">Reference: <a target="_blank"
+								href="https://developers.google.com/web/tools/lighthouse/">Lighthouse
+							</a>analysis</span>
+					</div>
+				</div>
 				<footer>
-					<div id="likeComment"> 
+					<div id="likeComment">
 						<!-- <ul class="stats"> -->
 						<scan>Like this project or want to leave a comment? &nbsp;&nbsp;</scan>
-							<!-- modal display: your "like" has been recorded. vs leave your comment. and View other's comments. -->
-						<a href="#" class="icon solid fa-heart">&nbsp;28 &nbsp;&nbsp;&nbsp;</a> 
+						<!-- modal display: your "like" has been recorded. vs leave your comment. and View other's comments. -->
+						<a href="#" class="icon solid fa-heart">&nbsp;28 &nbsp;&nbsp;&nbsp;</a>
 						<a href="#" class="icon solid fa-comment">&nbsp;128</a>
-					<!-- </ul> -->
+						<!-- </ul> -->
 					</div>
 				</footer>
 			</article>
