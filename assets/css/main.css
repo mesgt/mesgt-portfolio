@@ -152,19 +152,23 @@ span#performRef.row {
 
 .summarySpacing {
 	margin-top: 2.5em;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.8em;
+	/* font-family: "Raleway", Helvetica, sans-serif; */
+	font-size: 0.6em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
-	line-height: 1.5;
+	line-height: 2.5;
 	/* margin: 0 0 0 2em; */
 	/* padding: 0 0 0 2em; */
 	/* text-transform: uppercase; */
 }
 
+#myBio {
+	font-size: 1.7em;
+}
+
 #gitHubLink #myStory {
 	font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
+		font-size: 0.8em;
 		font-weight: 400;
 		/* text-transform: uppercase; */
 		/* color: red; */
@@ -3143,7 +3147,7 @@ span#performRef.row {
 					font-size: 0.6em;
 					font-weight: 400;
 					letter-spacing: 0.25em;
-					line-height: 1;
+					line-height: 1.4;
 					margin: 0 0 0 2em;
 					padding: 0 0 0 2em;
 					text-transform: uppercase;
@@ -3182,7 +3186,7 @@ span#performRef.row {
 					border-left: 0;
 				}
 
-					.post > header .title {
+					.post > header .title, #myBio, #sideProjects {
 						-ms-flex: 0 1 auto;
 						margin: 0 0 2em 0;
 						padding: 0;
@@ -3451,7 +3455,7 @@ span#performRef.row {
 			white-space: nowrap;
 		}
 
-			#header h1 a {
+			#header a {
 				font-size: 0.7em;
 			}
 
