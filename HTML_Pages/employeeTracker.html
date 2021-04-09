@@ -2,11 +2,13 @@
 <html>
 
 <head>
-	<title>Workout Tracker</title>
+	<title>Employee Tracker System</title>
 	<link rel="shortcut icon" type="image/png" href="./assets/images/Icons/favicon1.png" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -17,11 +19,10 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1><a href="index.html">Back to Maria's Profile</a></h1>
+			<h1><a href="../index.html">Back to Maria's Profile</a></h1>
 			<nav class="links">
 				<ul>
-					<li class="fab fa-github"><a target="_blank" href="https://github.com/mesgt/workout_tracker">  View in Github</a></li>
-					<li class="fas fa-external-link-alt"><a target="_blank" href="https://evening-lake-78163.herokuapp.com/?id=606676f8e3667d00155ee688" >  Visit Site</a>
+					<li class="fab fa-github"><a href="https://github.com/mesgt/employee_tracker"> View in Github</a>
 					</li>
 					<li class="icon solid fa-envelope"><a target="_blank" href="mailto:maria.sargent@thunderj.com">
 						Contact Me</a></li>
@@ -44,15 +45,9 @@
 			<section>
 				<ul class="links">
 					<li>
-						<a href="https://github.com/mesgt/workout_tracker">
+						<a href="https://github.com/mesgt/employee_tracker">
 							<h3>View in Github</h3>
 							<p>Check out the code</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://evening-lake-78163.herokuapp.com/?id=606676f8e3667d00155ee688">
-							<h3>Visit the site</h3>
-							<p>Take the App for a test drive</p>
 						</a>
 					</li>
 					<li>
@@ -64,9 +59,6 @@
 
 				</ul>
 			</section>
-
-			
-
 		</section>
 
 		<!-- Main -->
@@ -76,23 +68,28 @@
 			<article class="post">
 				<header>
 					<div id="previewHeader" class="title">
-						<h2>Workout Tracker</h2>
+						<h2>Employee Tracking System</h2>
 						<div>
 							<p>
-								The logged data is then analyzed and presented to the user in a graph for easier view. User has the option of adding more exercise sessions to a day's work out by clicking on 'Continue Workout' or starting a new workout for the day by clicking on 'New Workout'. The user also has the option of choosing the type of exercise- resistance or cardio- for more accurate tracking. A modal informs the user when an exercise has been successfully added to the day's workout.</p>
+								With this application, the user is able to create various departments, assign specific
+								roles to these departments and enter employee information in association with a specific
+								department and role. The user is also able to view all departments, roles and employees
+								in a table displayed in the terminal. The user is simply asked a series of questions and
+								based on the response, the terminal runs the command.</p>
 						</div>
 					</div>
 				</header>
 				<div class="preview">
-					<img class="center" width="80%" src="./assets/images/Smaller_Projects/Workout_Tracker.gif"/>
+					<img id="projectImg" class="center" width="80%"
+						src="./assets/images/Smaller_Projects/employeeTracker.gif" />
 				</div>
 				<footer>
 					<div id="likeComment">
 						<ul class="stats">
-						<scan>Like this project or want to leave a comment? &nbsp;&nbsp;</scan>
-						<!-- modal display: your "like" has been recorded. vs leave your comment. and View other's comments. -->
-						<a href="#" class="icon solid fa-heart">&nbsp;28 &nbsp;&nbsp;&nbsp;</a>
-						<a href="#" class="icon solid fa-comment">&nbsp;128</a>
+							<scan>Like this project or want to leave a comment? &nbsp;&nbsp;</scan>
+							<!-- modal display: your "like" has been recorded. vs leave your comment. and View other's comments. -->
+							<a href="#" class="icon solid fa-heart">&nbsp;28 &nbsp;&nbsp;&nbsp;</a>
+							<a href="#" class="icon solid fa-comment">&nbsp;128</a>
 						</ul>
 					</div>
 				</footer>
@@ -110,8 +107,7 @@
 			</ul>
 			<p class="copyright center">&copy; Maria Sargent 2021</p>
 		</footer>
-
-	</div>
+</div>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
