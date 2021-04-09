@@ -184,6 +184,13 @@ span#performRef.row {
 	background-color: rgb(243, 243, 243);
 }
 
+#UofM, #UofN {
+	/* background:white; */
+	/* padding: 1em; */
+	padding-right: 2em;
+	width: 100%;
+	object-position: center;
+}
 /* #popup {
 	transition: 5s;
   	transition-timing-function:ease-in;
@@ -417,15 +424,20 @@ span#performRef.row {
 				color:rgb(63, 59, 59);
 				font-size: .75em;
 			}
+			#UofM, #UofN {
+				/* position: absolute; */
+				width: 18%;
+				float: left;
+			}
 		}
-
+		
 		@media screen and (min-width: 981px) {
-
+			
 			nav.main {
 				display: none;
 			}
 		}
-
+		
 		@media screen and (max-width: 980px) {
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -433,6 +445,15 @@ span#performRef.row {
 			nav.main {
 				display: block;
 			}
+			/* header.container {
+				text-align: center;
+			}
+			#UofM {
+				width: 20%;
+				display: inline;
+  				margin-left: auto;
+  				margin-right: auto;
+			} */
 		}
 
 		@media screen and (max-width: 736px) {
@@ -449,7 +470,10 @@ span#performRef.row {
 			nav.main {
 				display: block;
 			}
-
+			#UofM, #UofN {
+				width: 30%;
+				float: left;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -462,6 +486,10 @@ span#performRef.row {
 			}
 			#contactMeBtn {
 				font-size: .6em;
+			}
+			#UofM, #UofN {
+				width: 35%;
+				float: left;
 			}
 		}
 
@@ -2906,7 +2934,7 @@ span#performRef.row {
 			}
 
 				ul.posts article header h3 {
-					font-size: 0.7em;
+					font-size: 0.8em;
 					margin-top: 0.125em;
 				}
 
