@@ -146,6 +146,7 @@ span#performRef.row {
 	text-transform: uppercase;
 }
 
+
 .reference {
 	padding: 0 !important;
 }
@@ -633,7 +634,7 @@ span#performRef.row {
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -826,7 +827,7 @@ span#performRef.row {
 		.row {
 			margin-top: 0;
 			/* margin-left: -1em; */
-		}
+		/* }
 
 			.row > * {
 				padding: 0 0 0 1em;
@@ -872,9 +873,9 @@ span#performRef.row {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 2em;
-				}
+				}  */
 
-		@media screen and (max-width: 1680px) {
+		/* @media screen and (max-width: 1680px) {
 
 			.row {
 				display: flex;
@@ -1069,7 +1070,7 @@ span#performRef.row {
 				.row {
 					margin-top: 0;
 					/* margin-left: -1em; */
-				}
+				/* }
 
 					.row > * {
 						padding: 0 0 0 1em;
@@ -1313,7 +1314,7 @@ span#performRef.row {
 
 				.row {
 					margin-top: 0;
-					/* margin-left: -1em; */
+					margin-left: -1em;
 				}
 
 					.row > * {
@@ -1558,7 +1559,7 @@ span#performRef.row {
 
 				.row {
 					margin-top: 0;
-					/* margin-left: -1em; */
+					margin-left: -1em;
 				}
 
 					.row > * {
@@ -1803,7 +1804,7 @@ span#performRef.row {
 
 				.row {
 					margin-top: 0;
-					/* margin-left: -1em; */
+					margin-left: -1em;
 				}
 
 					.row > * {
@@ -2048,7 +2049,7 @@ span#performRef.row {
 
 				.row {
 					margin-top: 0;
-					/* margin-left: -1em; */
+					margin-left: -1em;
 				}
 
 					.row > * {
@@ -2097,7 +2098,7 @@ span#performRef.row {
 							padding-top: 2em;
 						}
 
-		}
+		}  */
 
 /* Author */
 
@@ -3661,6 +3662,29 @@ span#performRef.row {
 		max-width: 100%;
 		opacity: 1;
 		padding: 4.5em;
+	}
+
+	.emailAddress {
+		bottom: -2em;
+		position: fixed;
+		z-index: 100;
+		width: 100%;
+		text-align: center;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-size: 0.75em;
+		font-weight: 400;
+		letter-spacing: 0.25em;
+	}
+
+
+	.emailAddress ul {
+		padding: initial;
+	}
+
+	.emailAddress ul li {
+		list-style-type: none;
+		color: rgb(223, 223, 223);
+		background: rgb(0, 74, 77);
 	}
 
 		body.is-menu-visible #wrapper {
